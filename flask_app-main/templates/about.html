@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style> p {text-align:justify}</style>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='bootsrap.min.css') }}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">  
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- Menü butonu (mobilde görünür) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Menüyü Aç/Kapat">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menü linkleri -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="https://oneamz.com" target="_blank" rel="noopener noreferrer">
+                            <img src="/static/oneamz logo.png" alt="Oneamz Logo" height="20" class="d-inline-block me-2">
+                        </a>            
+                    </li>
+                    
+                    <li class="nav-item fs-4 px-3">
+                        <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                    </li>
+                    <li class="nav-item fs-4 px-3">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    
+                </ul>
+      </div>
+    </div>
+    </nav>
+    <!-- End of Navigation -->
+     <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="container text-light p-5">
+      <br>
+      <br>
+        <h2>Amazon Product Sales Prediction Analysis</h2>
+      <br>
+        
+                  
+      <p> Product sales on a platform as large as Amazon requires considering numerous factors. However, data such as page views, conversion rates, and unit session percentage rates can help improve your sales predictions.
+      </p>
+      <h5> 1. Page View Count</h5>
+      <p>The frequency at which your product page on Amazon is viewed reflects the level of interest it garners from potential customers. An increase in page views indicates that your product is reaching a wider audience and gaining more visibility.
+      </p>
+      <h5>2. Conversion Rates</h5>
+      <p>The percentage rates on your product page indicate how many potential customers continue to make a purchase after reviewing your product. In other words, these rates can help you measure the conversion rate of actual customers compared to page views.
+      </p>
+      <h5>3. Unit Session Percentage Rates</h5>
+      <p>Unit session percentage rates reveal how many people added your product to their cart or continued with the purchase process after viewing your product, in comparison to page views. These rates allow you to evaluate the effectiveness of your product page and understand your conversion rates.
+      </p>
+      <h4>Conclusion and Sales Prediction</h4>
+      <p>By taking into account data such as page views, conversion rates, and unit session percentage rates, it becomes more feasible to predict whether your product will sell on Amazon. However, keep in mind that these are just predictive tools, and other factors such as competition, product quality, pricing, and marketing strategies should also be considered.
+      </p>
+      <p>Carefully analyzing these data points will enable you to optimize your product and develop a more successful sales strategy on Amazon. It's important to always stay updated with current data and market trends, as the e-commerce landscape is constantly evolving, and adaptability is crucial for your success.</p>
+      </p>
