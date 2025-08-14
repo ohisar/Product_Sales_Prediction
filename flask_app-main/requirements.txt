@@ -1,6 +1,5 @@
 setuptools==68.2.2
 wheel==0.40.0
-pyhton==3.11.8
 absl-py==1.4.0
 altair==5.0.1
 anyio==3.6.2
@@ -178,6 +177,7 @@ xgboost==1.7.5
 ydata-profiling==4.1.1
 yellowbrick==1.5
 zipp==3.15.0
+
 
 
 
